@@ -2,7 +2,7 @@
 
 Project name - ReSci
 
-1. Link to working code in a public repo - Steps to check the Unstoppable Domain integration - https://resci.vercel.app/
+1. Link to working code in a public repo - Steps to check the Unstoppable Domain integration - https://re-sci.vercel.app/
 2. Clone the Repo
 3. cd ReSci
 4. npm install
