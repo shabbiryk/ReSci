@@ -8,8 +8,8 @@ Project name - ReSci
 4. npm install
 5. npm start
 6. Go to http://localhost:3000/
-7. Recorded video demo of the integration -
+7. Recorded video demo of the integration - https://drive.google.com/file/d/1IBXdo5Y-MJ5C2XppXDNHVllmknABLSww/view?usp=sharing
 8. Person of contact in case there are any questions - Shabbir Khandwala (Email - shabbirkhand.sk@gmail.com )
 9. Discord ID - shabbiryk#2880
 10. UnstoppableDomain registered account email address - shabbirkhand.sk@gmail.com
-11. Code where UnstoppableDomain is used -
+11. Code where UnstoppableDomain is used - https://github.com/shabbiryk/ReSci/edit/main/README.md
