@@ -5,8 +5,9 @@ import UAuth from "@uauth/js"
 
 const uauth = new UAuth({
     clientID: "bbe8f08a-dd77-4a01-b02c-1b30844650b9",
-    redirectUri: "http://localhost:3000",
-})
+    redirectUri: "https://re-sci.vercel.app/",
+    scope: "openid wallet"
+  })
 
 function UDomain() {
     const [Uauth, setUauth] = useState()
