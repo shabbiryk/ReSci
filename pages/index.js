@@ -1,16 +1,20 @@
+import React, { useContext } from 'react';
+import { DashboardContext } from '../context/DashboardContext';
 import Layout from '../components/Layout';
-import Dashboard from '../components/Dashboard'
+import Dashboard from '../components/Dashboard';
 import { JssProvider } from 'react-jss';
 
-const Home = (props) => {
+const jssProviderId = { minify: true };
 
-    return (
-        <JssProvider id={{ minify: true }}>
-          <Layout connectUser={props.connectUser} provider={props.provider}>
-            <Dashboard/>
-          </Layout>
-        </JssProvider>
-    )
-}
-  
+const Home = React.memo(() => {
+  const { connectUser, provider } = useContext(DashboardContext);
+  return (
+    <JssProvider id={jssProviderId}>
+      <Layout>
+        <Dashboard />
+      </Layout>
+    </JssProvider>
+  );
+});
+
 export default Home;
